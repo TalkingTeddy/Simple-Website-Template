@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+/* If we want to replace the video with an image then here is the code */
+
+body{
+    /* background-image: url(Assets/javier-miranda-MrWOCGKFVDg-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: black;
+}
+
+/* .myVideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .myVideo{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .myVideo{
+        width: auto;
+        height: 100%;
+    }
+} */

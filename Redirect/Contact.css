@@ -1,0 +1,68 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.material {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.contactInfo, .contactForm {
+    padding: 5%;
+}
+
+.contactInfo p, h1{
+    padding: 2%;
+    width: 26vw;
+    justify-content: center;
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactForm{
+    width: 60vw;
+    font-size: larger;
+}
+
+.contactForm input{
+    margin: 1%;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    border-style: none; 
+    border-bottom: 2px white solid;
+}
+
+.contactForm textarea{
+    color: white;
+    padding: 2%;
+    background-color: black;
+    border-style: none; 
+    border-bottom: 2px white solid;
+    width: 51vw;
+}
+
+@media (max-width:900px) {
+    .material{
+        display: block;
+    }
+    
+    .contactForm{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,42 @@
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.aboutSection {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paragraphs, .image{
+    /* border: 2px white solid; */
+    margin: 3% 3%;
+    padding: 5%;
+}
+
+.image img{
+    width: auto;
+    height: 300px;
+}
+
+@media(max-width:960px){
+    .aboutSection{
+        display: block;
+    }
+
+    .image img{
+        width: 80vw;
+        height: auto;
+        padding-left: 40px;
+        margin: 0;
+    }
+    
+    .paragraphs{
+        width: 85vw;
+        padding-left: 40px;
+        margin: 0;
+    }
+}
